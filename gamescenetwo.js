@@ -46,7 +46,7 @@ class GameSceneTwo extends Phaser.Scene {
     //===============Создание карты=============//    
     const map = this.make.tilemap({ key: "map2" });
     const tileset = map.addTilesetImage("kenney_simple_platformer", "tiles");
-    this.background = this.add.tileSprite(0, 0, 1600, 1024, "backgroundtwo")
+    this.background = this.add.tileSprite(0, 0, 6400, 1024, "backgroundtwo")
     this.background.setOrigin(0)
     this.background.setScrollFactor(0, 1);
     const platforms = map.createStaticLayer("Platforms", tileset, 0, 200);
