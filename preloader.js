@@ -23,7 +23,9 @@ class PreloaderScene extends Phaser.Scene {
 
         const rulesText = [
             'Avoid flying birds and rockets, they cannot be killed. ',
-            'The rest of the enemies can be killed by jumping on them'
+            'The rest of the enemies can be killed by jumping on them.',
+            'Collect 33 coins and key.',
+            'A sword for beauty, you can wave it by pressing Ctrl.'
         ];
 
         const text = this.add.text(width / 2, height / 2 + 150, rulesText, { fontFamily: "Arial Black", fontSize: 30, align: 'center' }).setOrigin(0.5, 0.5);
