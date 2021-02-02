@@ -5,7 +5,7 @@ class TitleScene extends Phaser.Scene {
 
     preload() {
         this.load.image("play", "assets/images/button.webp");
-        this.load.image('sonic', 'assets/images/idle-0.png');
+        this.load.image('sonic', 'assets/images/playerbandit.png');
         this.load.image('enbird', 'assets/images/bird.png');
         this.load.image('enbomb', 'assets/images/bomb.png');
         this.load.image('engreen', 'assets/images/green.png');
