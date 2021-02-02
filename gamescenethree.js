@@ -51,7 +51,7 @@ class GameSceneThree extends Phaser.Scene {
     //===============Создание карты=============//    
     const map = this.make.tilemap({ key: "map3" });
     const tileset = map.addTilesetImage("kenney_simple_platformer", "tiles");
-    this.background = this.add.tileSprite(0, 0, 1600, 768, "backgroundthree")
+    this.background = this.add.tileSprite(0, 0, 6400, 768, "backgroundthree")
     this.background.setOrigin(0)
     this.background.setScrollFactor(0, 1);
     const platforms = map.createStaticLayer("Platforms", tileset, 0, 200);
